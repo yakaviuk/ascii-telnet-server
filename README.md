@@ -46,10 +46,13 @@ Run as stand alone server
 -------------------------
 
 Simple call this Python script by using the sample movie file:
-
-    $> python ascii_telnet_server.py --standalone -f ../sample_movies/sw1.txt
+    
+    $ cd ascii-telnet-server
+    $> python ascii_telnet_server.py --standalone -f sample_movies/sw1.txt
     Running TCP server on 0.0.0.0:23
     Playing movie sw1.txt
+    In new tab/window:
+    $ telnet 0.0.0.0
 
 Run as docker container
 -----------------------
